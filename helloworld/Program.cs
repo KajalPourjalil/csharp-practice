@@ -6,3 +6,8 @@ string name = "Alexandra";
 //string interpolation with using $
 Console.WriteLine($"{name} is both my girlfriend and my wife");
 
+string greeting = "            gambateee           ";
+Console.WriteLine($"[{greeting}]");
+
+string trimmedGreeting = greeting.Trim();
+Console.WriteLine($"[{trimmedGreeting}]");
