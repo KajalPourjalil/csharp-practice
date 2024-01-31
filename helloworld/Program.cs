@@ -34,3 +34,14 @@ int b = 6;
 int c = a + b;
 Console.WriteLine(c);
 
+int n = 2100000000;
+int m = 2100000000;
+long v = (long)n + (long)m;
+Console.WriteLine(v);
+
+double r = 34.2;
+double e = 29.9;
+double x = r + e;
+Console.WriteLine(x);
+
+
