@@ -11,3 +11,20 @@ Console.WriteLine($"[{greeting}]");
 
 string trimmedGreeting = greeting.Trim();
 Console.WriteLine($"[{trimmedGreeting}]");
+
+string firstFriend = "shadow";
+
+string secondFriend = "tails";
+
+string friends = $"{firstFriend} and {secondFriend} are best friends.";
+
+Console.WriteLine(friends);
+// Console.WriteLine(friends.Replace("tails", "sonic"));
+friends = friends.Replace("tails", "sonic");
+Console.WriteLine(friends);
+
+Console.WriteLine(friends.Contains("sonic"));
+
+
+
+ 
