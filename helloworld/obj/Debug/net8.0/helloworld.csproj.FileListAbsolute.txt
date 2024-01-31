@@ -1,0 +1,15 @@
+H:\vscode\csharp-practice\helloworld\bin\Debug\net8.0\helloworld.exe
+H:\vscode\csharp-practice\helloworld\bin\Debug\net8.0\helloworld.deps.json
+H:\vscode\csharp-practice\helloworld\bin\Debug\net8.0\helloworld.runtimeconfig.json
+H:\vscode\csharp-practice\helloworld\bin\Debug\net8.0\helloworld.dll
+H:\vscode\csharp-practice\helloworld\bin\Debug\net8.0\helloworld.pdb
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.AssemblyInfoInputs.cache
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.AssemblyInfo.cs
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.csproj.CoreCompileInputs.cache
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.sourcelink.json
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.dll
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\refint\helloworld.dll
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.pdb
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\helloworld.genruntimeconfig.cache
+H:\vscode\csharp-practice\helloworld\obj\Debug\net8.0\ref\helloworld.dll
