@@ -25,6 +25,11 @@ Console.WriteLine(friends);
 
 Console.WriteLine(friends.Contains("sonic"));
 
+Console.WriteLine(friends.Length);
+
+Console.WriteLine(friends.StartsWith("hello"));
+
+
 
 
  
