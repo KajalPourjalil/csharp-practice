@@ -76,13 +76,23 @@ int counter = 0;
 // counter += 1;
 // Console.WriteLine(counter);
 
-// while(counter < 10){
-//     counter += 1;
-// }
-// Console.WriteLine(counter);
+
+while(counter < 10){
+    counter += 1;
+}
+Console.WriteLine(counter);
+
 
 while(counter < 5){
     counter++;
     Console.WriteLine(counter);
     // counter++;
+}
+
+//for loops
+
+
+for (int i = 0; i < length; i++)
+{
+    
 }
