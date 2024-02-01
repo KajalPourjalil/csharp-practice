@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "h:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj": {}
+    "H:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj": {}
   },
   "projects": {
-    "h:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj": {
+    "H:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj",
+        "projectUniqueName": "H:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj",
         "projectName": "helloworld",
-        "projectPath": "h:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj",
+        "projectPath": "H:\\vscode\\csharp-practice\\helloworld\\helloworld.csproj",
         "packagesPath": "C:\\Users\\tivadigi\\.nuget\\packages\\",
-        "outputPath": "h:\\vscode\\csharp-practice\\helloworld\\obj\\",
+        "outputPath": "H:\\vscode\\csharp-practice\\helloworld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tivadigi\\AppData\\Roaming\\NuGet\\NuGet.Config"

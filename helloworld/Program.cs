@@ -92,7 +92,10 @@ while(counter < 5){
 //for loops
 
 
-for (int i = 0; i < length; i++)
+for (int row = 1; row < 11; row++)
 {
-    
+    for (char column = 'a'; column < 'k'; column++)
+    {
+        Console.WriteLine($"the cell is ({row}, {column})");
+    }
 }
