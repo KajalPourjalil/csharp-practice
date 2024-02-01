@@ -121,10 +121,27 @@ Console.WriteLine(surnames[^2]);
 
 var numbers = new List<int> {1,2,3,4,5,6,7,8,9};
 
-foreach (var j in numbers[2..7])
-{
-   Console.WriteLine(numbers);
-}
+// foreach (var j in numbers[2..7])
+// {
+//    Console.WriteLine(numbers);
+// }
 
 var bings = new string[] {"alex", "kajal"}; //array
+
+for (int i = 0; i < bings.Length; i++)
+{
+    Console.WriteLine(bings[i]);
+}
+
+
+//add a new item
+bings = [..bings, "ever"];//appending
+
+foreach(var j in bings){
+    Console.WriteLine($"hello {j.ToUpper()}");
+}
+
+//use defualt list instead of arrays
+
+
 
