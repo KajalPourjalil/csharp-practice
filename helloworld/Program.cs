@@ -99,3 +99,11 @@ for (int row = 1; row < 11; row++)
         Console.WriteLine($"the cell is ({row}, {column})");
     }
 }
+
+//using list of t. t is type
+
+var surnames = new List<string> {"alex", "ana", "felipe"};
+foreach (var i in surnames)
+{
+    Console.WriteLine($"Hello {i.ToUpper()}!");
+}
