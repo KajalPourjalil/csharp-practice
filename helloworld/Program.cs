@@ -45,3 +45,20 @@ double x = r + e;
 Console.WriteLine(x);
 
 
+//if statements and loops
+int k = 9;
+int l = 5;
+if ((k + l) > 10) {
+    Console.WriteLine("true");
+}
+else {
+    Console.WriteLine("false");
+}
+
+if((k - l) < 10) Console.WriteLine("true");
+else Console.WriteLine("false");
+
+int o = k + l;
+bool test = o > k;
+Console.WriteLine(test);
+
