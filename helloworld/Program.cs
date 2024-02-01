@@ -62,3 +62,21 @@ int o = k + l;
 bool test = o > k;
 Console.WriteLine(test);
 
+// && == || 
+
+//while loops
+
+int counter = 0;
+// counter += 1;
+// Console.WriteLine(counter);
+// counter += 1;
+// Console.WriteLine(counter);
+// counter += 1;
+// Console.WriteLine(counter);
+// counter += 1;
+// Console.WriteLine(counter);
+
+while(counter < 10){
+    counter += 1;
+}
+Console.WriteLine(counter);
