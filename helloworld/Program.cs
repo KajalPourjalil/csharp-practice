@@ -143,5 +143,25 @@ foreach(var j in bings){
 
 //use defualt list instead of arrays
 
+//sorting and searching lists
+var hazbin = new List<string> {"angel", "stolas", "blitz"};
+//sorting
+hazbin.Sort();
 
+
+foreach (var item in hazbin)
+{
+    Console.WriteLine($"piss off {item.ToUpper()}");
+}
+
+var helluva = new List<int> {54, 34, 8, 23, 144};
+
+// helluva.Sort();
+
+foreach (var item in helluva)
+{
+    Console.WriteLine($"{item}");
+}
+
+Console.WriteLine($"i found 8 at the index of {helluva.IndexOf(8)}");
 
