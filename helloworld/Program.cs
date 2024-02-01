@@ -113,3 +113,18 @@ foreach (var i in surnames)
 
 //arrays , lists, indexing and foreach
 
+Console.WriteLine(surnames[0]);
+Console.WriteLine(surnames[3]);
+Console.WriteLine(surnames[^1]); //last one
+Console.WriteLine(surnames[^2]);
+
+
+var numbers = new List<int> {1,2,3,4,5,6,7,8,9};
+
+foreach (var j in numbers[2..7])
+{
+   Console.WriteLine(numbers);
+}
+
+var bings = new string[] {"alex", "kajal"}; //array
+
