@@ -101,9 +101,15 @@ for (int row = 1; row < 11; row++)
 }
 
 //using list of t. t is type
+//working with foreach
 
 var surnames = new List<string> {"alex", "ana", "felipe"};
+surnames.Add("Kajal");
+
 foreach (var i in surnames)
 {
     Console.WriteLine($"Hello {i.ToUpper()}!");
 }
+
+//arrays , lists, indexing and foreach
+
