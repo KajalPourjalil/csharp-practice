@@ -163,11 +163,38 @@ foreach (var item in helluva)
     Console.WriteLine($"{item}");
 }
 
-Console.WriteLine($"i found 8 at the index of {helluva.IndexOf(8)}");
+// Console.WriteLine($"i found 8 at the index of {helluva.IndexOf(8)}");
 
 //language integrated query (LINQ) makes working with a collection
 //of things much simpler
 
+int[] scores = [97, 99, 80, 70, 5, 100, 32]; //an array
 
+var fels = new List<int> {0, 9, 8};
 
+List<int> nesd = [5,4,3,0,2];
+
+//find all the scores over eighty
+
+// for (int i = 0; i < scores.Length; i++) {
+//     if (scores[i] > 80)
+//     {
+//          Console.WriteLine($"found a score over 80 {scores[i]}");
+//     }
+// }
+
+// return;
+
+//IEnumerable: describes
+
+IEnumerable<string> query = 
+from score in scores 
+where score < 80 
+orderby score descending 
+select $"the score is {score}";
+
+foreach (string i in query)
+{
+    Console.Write(i + " ");
+}
 
