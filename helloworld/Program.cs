@@ -165,3 +165,9 @@ foreach (var item in helluva)
 
 Console.WriteLine($"i found 8 at the index of {helluva.IndexOf(8)}");
 
+//language integrated query (LINQ) makes working with a collection
+//of things much simpler
+
+
+
+
