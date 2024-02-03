@@ -202,6 +202,8 @@ foreach (string i in query)
 
 public class Person {
 
+    public Person();
+
     //memebers 
     public string firstName;
 
