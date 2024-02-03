@@ -198,3 +198,21 @@ foreach (string i in query)
     Console.Write(i + " ");
 }
 
+//object orientation
+
+public class Person {
+
+    //memebers 
+    public string firstName;
+
+    public string lastName;
+
+    public DateOnly birthday;
+}
+
+var p = new Person()
+{
+    // firstName = "scott",
+    // lastName = "nolan",
+    // birthday = new DateOnly()
+}
