@@ -200,9 +200,6 @@ foreach (string i in query)
 
 //object orientation
 
-
-
-
 //different way of making people
 
 var p1 = new Person("Alexandra", "Arrieche", new DateOnly(1981,5,4));
@@ -212,9 +209,28 @@ List<Person> people = [p1,p2];
 
 Console.WriteLine(people.Count);
 
-public class Person(string firstName, string lastName, DateOnly birthday)
+public class Person(string firstName, string lastName, DateOnly birthday, string pet)
 {
     public string First { get; } = firstName;
     public string Last { get; } = lastName;
     public DateOnly Birthday { get; } = birthday;
+
+}
+
+public abstract class Pet(string firstName){
+    public string First { get; } = firstName;
+    public abstract string MakeNoise();
+}
+
+
+public class Cat(string firstName) : Pet(firstName)
+{
+
+    public override string MakeNoise() => "meow";
+}
+
+public class Dog(string firstName) : Pet(firstName)
+{
+
+    public override string MakeNoise() => "bark";
 }
