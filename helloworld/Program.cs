@@ -240,7 +240,7 @@ public abstract class Pet(string firstName){
 
      public override string ToString()
     {
-        return $"{firstName} and I am a {GetType().Name}";
+        return $"{firstName} and I am a {GetType().Name} and I {MakeNoise()}";
     }
 }
 
