@@ -200,9 +200,16 @@ foreach (string i in query)
 
 //object orientation
 
+var p2 = new Person() {
+    firstName = "Kajal",
+    lastName = "Pourjalil",
+    birthday = new DateOnly(1998,10,22);}
+
+
+
 public class Person {
 
-    public Person();
+    public Person(string first, string last, DateOnly bd);
 
     //memebers 
     public string firstName;
@@ -212,9 +219,3 @@ public class Person {
     public DateOnly birthday;
 }
 
-var p = new Person()
-{
-    // firstName = "scott",
-    // lastName = "nolan",
-    // birthday = new DateOnly()
-}
