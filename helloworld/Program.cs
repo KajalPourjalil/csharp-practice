@@ -195,27 +195,26 @@ select $"the score is {score}";
 
 foreach (string i in query)
 {
-    Console.Write(i + " ");
+    // Console.Write(i + " ");
 }
 
 //object orientation
 
-var p2 = new Person() {
-    firstName = "Kajal",
-    lastName = "Pourjalil",
-    birthday = new DateOnly(1998,10,22);}
 
 
 
-public class Person {
+//different way of making people
 
-    public Person(string first, string last, DateOnly bd);
+var p1 = new Person("Alexandra", "Arrieche", new DateOnly(1981,5,4));
+var p2 = new Person("Kajal", "Pourjalil", new DateOnly(1998,10,22));
 
-    //memebers 
-    public string firstName;
+List<Person> people = [p1,p2];
 
-    public string lastName;
+Console.WriteLine(people.Count);
 
-    public DateOnly birthday;
+public class Person(string firstName, string lastName, DateOnly birthday)
+{
+    public string First { get; } = firstName;
+    public string Last { get; } = lastName;
+    public DateOnly Birthday { get; } = birthday;
 }
-
